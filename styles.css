@@ -142,7 +142,7 @@ body {
 .works {
     display: flex;
     flex-direction: column;
-    width: 100vw;
+    width: 100%;
     padding: 20px 20% 20px 20%;
     justify-content: center;
     align-items: flex-start;
@@ -160,7 +160,7 @@ body {
     align-items: flex-start;
 }
 .ctn1 .text, .ctn2 .text, .ctn3 .text, .ctn4 .text{
-    min-width: 100%;
+    min-width: 70%;
     padding: 32px 32px 32px 0px;
 }
 .ctn1 h3, .ctn2 h3, .ctn3 h3, .ctn4 h3 {
@@ -183,7 +183,6 @@ body {
     min-width: 400px
 }
 .ctn1 p, .ctn2 p, .ctn3 p, .ctn4 p {
-    max-width: 500px;
     width: 100%;
 }
 .ctn1 img, .ctn2 img, .ctn3 img, .ctn4 img {
@@ -225,6 +224,9 @@ body {
 .works-page .container .box1 {
     margin-top: 20px;
     margin-bottom: 20px;
+    width: 100%;
+}
+.page .works .bot-ctn {
     width: 100%;
 }
 .container .box1 h3, .container .box1 .midbox1 {
